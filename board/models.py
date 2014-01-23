@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Categories(models.Model):
-    Title = models.CharField(maxlength=40, null=False)
+    Title = models.CharField(max_length=40, null=False)
 
 
 class Article(models.Model):
